@@ -1,0 +1,37 @@
+:root{font-family: system-ui,Segoe UI,Roboto,Helvetica,Arial;}
+:root{font-family: system-ui,Segoe UI,Roboto,Helvetica,Arial;}
+*{box-sizing:border-box}
+body{margin:0;padding:0;background:linear-gradient(180deg,#f8fafc 0%,#eef2ff 100%);color:#0f172a}
+.container{max-width:980px;margin:0 auto;padding:28px}
+.nav{background:transparent;padding:18px 0}
+.nav-inner{display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:700;font-size:20px}
+.brand .accent{color:#7c3aed}
+.cta{background:transparent;border:1px solid rgba(15,23,42,0.08);padding:8px 12px;border-radius:8px;text-decoration:none;color:inherit}
+.hero{padding:64px 16px;text-align:center;background:linear-gradient(90deg,#eef2ff 0%,#ffffff 100%);}
+.hero-inner{max-width:780px;margin:0 auto}
+.hero h1{font-size:44px;margin:0 0 12px}
+.lead{color:#334155;font-size:18px;margin:0 0 18px}
+.hero-ctas{display:flex;gap:12px;justify-content:center}
+.btn{display:inline-block;padding:10px 16px;border-radius:10px;text-decoration:none;border:1px solid rgba(15,23,42,0.06);background:#fff;color:#0f172a}
+.btn.primary{background:#7c3aed;color:#fff;border:none}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin:28px 0}
+.feature{background:rgba(255,255,255,0.8);padding:18px;border-radius:10px}
+.feature h3{margin:0 0 8px}
+.muted{color:#64748b}
+.message-form{display:flex;gap:8px;margin:16px 0}
+.message-form input{flex:1;padding:10px;border-radius:8px;border:1px solid #e6eef8}
+.message-form button{padding:10px 14px;border-radius:8px;border:none;background:#111827;color:#fff}
+.messages{list-style:none;padding:0;margin-top:12px}
+.messages li{background:#fff;padding:12px;margin-bottom:10px;border-radius:8px;box-shadow:0 1px 2px rgba(2,6,23,0.06)}
+.site-footer{padding:24px 0;color:#64748b}
+
+.estimator-min{background:transparent;padding:12px;margin:20px 0}
+.estimator-min-inner{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:18px;background:#fff;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+.estimator-left h2{margin:0 0 6px}
+.estimator-left .muted{margin:0}
+.estimator-right{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.qty-label{font-size:13px;color:#475569}
+.qty-input{width:120px;padding:12px;border-radius:10px;border:1px solid #e6eef8;font-size:18px;text-align:center}
+.estimator-total-big{font-size:22px;font-weight:700;color:#0f172a}
+.estimator-min .btn.primary{padding:8px 12px;border-radius:8px}
