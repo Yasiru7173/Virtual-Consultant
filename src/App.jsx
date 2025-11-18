@@ -46,8 +46,8 @@ export default function App() {
 
       <header className="hero">
         <div className="hero-inner">
-          <h1>Build Fast, Ship Faster</h1>
-          <p className="lead">A tiny starter using Vite + React — backed by Supabase. Add content, authentication, and deploy to Vercel in minutes.</p>
+          <h1>Virtual Consultation</h1>
+          <p className="lead">Professional consultation services powered by Vite + React — backed by Supabase. Fast, reliable, and scalable.</p>
           <div className="hero-ctas">
             <a className="btn primary" href="#messages">Try Messages</a>
             <a className="btn" href="https://supabase.com" target="_blank" rel="noreferrer">Supabase</a>
