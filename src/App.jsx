@@ -39,7 +39,7 @@ export default function App() {
     <div className="site">
       <nav className="nav">
         <div className="nav-inner">
-          <div className="brand">Simple<span className="accent">Site</span></div>
+          <div className="brand">Virtual<span className="accent">Consultation</span></div>
           <a className="cta" href="#messages">Messages</a>
         </div>
       </nav>
@@ -108,7 +108,7 @@ export default function App() {
       </main>
 
       <footer className="site-footer">
-        <div className="container">© {new Date().getFullYear()} Simple Site — Deployed with Vercel • Backend: Supabase</div>
+        <div className="container">© {new Date().getFullYear()} Virtual Consultation — Deployed with Vercel • Backend: Supabase</div>
       </footer>
     </div>
   )
