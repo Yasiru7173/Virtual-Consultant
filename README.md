@@ -1,11 +1,11 @@
-# Simple Site (Vite + React + Supabase)
+# Virtual Consultation (Vite + React + Supabase)
 
 This is a minimal starter site intended to be deployed to Vercel and use Supabase as a backend.
 
 Quick features:
 - Vite + React frontend
 - Supabase client in `src/supabaseClient.js`
-- Simple "messages" UI that reads/inserts into a `messages` table
+- Messages UI that reads/inserts into a `messages` table
 
 Getting started locally
 
